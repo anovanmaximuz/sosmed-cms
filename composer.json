@@ -1,10 +1,13 @@
 {
     "name": "anovanmaximuz/sosmed-cms",
     "type": "library",
-    "description": "Social Login",
-    "keywords": ["log","medsos"],
+    "description": "Simple login using Social Media for CMS Enterprise",
+    "keywords": ["social","plugin","cms","linkit360","anovan"],
     "homepage": "https://github.com/anovanmaximuz/sosmed-cms",
     "license": "MIT",
+    "support": {
+        "issues": "https://github.com/anovanmaximuz/sosmed-cms/issues"
+    },
     "authors": [
         {
             "name": "Ano Van",
@@ -14,11 +17,14 @@
         }
     ],
     "require": {
-        "php": ">=5.3.0"
+        "php": ">=5.3.0",
+        "ext-mbstring": "*"
     },
     "autoload": {
         "psr-0": {
-            "cmsenter": "src"
+            "Malenki\\Bah": "src/"
         }
+    },
+    "require-dev": {
     }
 }
