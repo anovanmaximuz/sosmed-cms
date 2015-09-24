@@ -1,19 +1,24 @@
-"repositories": [
-    {
-        "type": "package",
-        "package": {
-            "name": "anovanmaximuz/sosmed-cms",
-            "version": "dev-master",
-            "source": {
-                "url": "https://github.com/anovanmaximuz/sosmed-cms.git",
-                "type": "git",
-                "reference": "master"
-            },
-            "autoload": {
-                "psr-0" : {
-                    "Weaverryan\\DangerZone" : "src"
-                }
-            }
+{
+    "name": "anovanmaximuz/cmssocial",
+    "type": "library",
+    "description": "Social Login",
+    "keywords": ["log","medsos"],
+    "homepage": "https://github.com/anovanmaximuz/sosmed-cms",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ano Van",
+            "email": "anovanmaximuz@gmail.com",
+            "homepage": "http://anovan.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Monolog": "src"
         }
     }
-],
+}
