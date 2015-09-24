@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Malenki\\Bah": "src/"
+            "anovanmaximuz\\sosmed-cms": "src/"
         }
     },
     "require-dev": {
