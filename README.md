@@ -1,28 +1,31 @@
 # sosmed-cms
-Plugin CMS Enterprise
+Simple login using Social Media for CMS Enterprise
+
 ## Synopsis
 
-At the top of the file there should be a short introduction and/ or overview that explains **what** the project is. This description should match descriptions added for package managers (Gemspec, package.json, etc.)
+When the web want to simplify for login method using social media, how that is very **simple** and **easy** setup. This plugin only support for CMS Enterprise v.2.3.1 and their clients.
+
+PARAMETER:
+```
+{BASE_DOMAIN} : your domain set or installed the plugin
+{PROVIDER}    : facebook | twitter | linkedin | google
+```
 
 ## Code Example
-
-Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
-
-## Motivation
-
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
-
-## Installation
-
-Provide code examples and explanations of how to get the project.
-
-## API Reference
-
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
+HTTP Request
+```
+{BASE_DOMAIN}/api/{PROVIDER}/login/get
+```
+Result JSON
+```
+{"status":true,"url":"http:\/\/{BASE_DOMAIN}\/api\/twitter\/callback\/data"}
+```
 
 ## Tests
 
-Describe and show how to run the tests with code examples.
+```
+{BASE_DOMAIN}/api/{PROVIDER}/login/get?test=true
+```
 
 ## Contributors
 
