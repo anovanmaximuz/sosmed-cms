@@ -20,7 +20,7 @@ HTTP Request
 
 Result JSON
 ```
-{"status":true,"url":"http:\/\/{BASE_DOMAIN}\/api\/twitter\/callback\/data"}
+{"status":true,"url":"http:\/\/{BASE_DOMAIN}\/api\/{PROVIDER}\/callback\/data"}
 ```
 
 Response Success
